@@ -2,10 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>jEdit</id>
-        <version>5.0.0.002</version>
+        <version>5.4.0</version>
         <authors>jEdit Team</authors>
         <projectUrl>http://www.jedit.org/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A programmer's text editor</description>
+        <dependencies>
+            <dependency id="jre8" />
+        </dependencies>
     </metadata>
 </package>
