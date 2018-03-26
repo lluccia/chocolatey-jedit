@@ -3,10 +3,29 @@
     <metadata>
         <id>jEdit</id>
         <version>5.4.0</version>
+        <packageSourceUrl>https://github.com/lluccia/chocolatey-jedit</packageSourceUrl>
         <authors>jEdit Team</authors>
         <projectUrl>http://www.jedit.org/</projectUrl>
+        <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>A programmer's text editor</description>
+        <iconUrl>https://raw.githubusercontent.com/lluccia/chocolatey-jedit/1b3eaf440526a1bfa749392cc6e5a5371829c16a/icon/jedit.png</iconUrl>
+        <description>jEdit is a mature programmer's text editor with hundreds (counting the time developing plugins) of person-years of development behind it.
+
+While jEdit beats many expensive development tools for features and ease of use, it is released as free software with full source code, provided under the terms of the GPL 2.0.
+
+The jEdit core, together with a large collection of plugins is maintained by a world-wide developer team.
+
+Some of jEdit's features include:
+-  Written in Java, so it runs on Mac OS X, OS/2, Unix, VMS and Windows.
+-  Built-in macro language; extensible plugin architecture. Hundreds of macros and plugins available.
+-  Plugins can be downloaded and installed from within jEdit using the "plugin manager" feature.
+-  Auto indent, and syntax highlighting for more than 200 languages.
+-  Supports a large number of character encodings including UTF8 and Unicode.
+-  Folding for selectively hiding regions of text.
+-  Word wrap.
+-  Highly configurable and customizable.
+-  Every other feature, both basic and advanced, you would expect to find in a text editor.
+        </description>
         <dependencies>
             <dependency id="jre8" />
         </dependencies>
