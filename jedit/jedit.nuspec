@@ -3,7 +3,7 @@
     <metadata>
         <id>jedit</id>
         <title>jEdit</title>
-        <version>5.6.0</version>
+        <version>5.7.0</version>
         <tags>text editor java opensource</tags>
         <packageSourceUrl>https://github.com/lluccia/chocolatey-jedit</packageSourceUrl>
         <authors>jEdit Team</authors>
